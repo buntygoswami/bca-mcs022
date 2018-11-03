@@ -1,0 +1,26 @@
+ 1) what is telnet?
+  ->  Telnet, developed in 1969, is a protocol that provides a command line interface for communication with a remote device or server.  
+  ->  Telnet stands for Teletype Network, but it can also be used as a verb; 'to telnet' is to establish a connection using the telnet protocol.
+  -> Because it was developed before the mainstream adaptation of the internet, telnet does not employ any form of encryption.	
+
+ 2) How does Telnet work?	
+   -> Telnet provides users with a bidirectional interactive text-oriented communication system utilizing a virtual terminal connection over 8 byte.
+   -> User data is interspersed in-band with telnet control information over the transmission control protocol (TCP).
+   -> Often, Telnet was used on a terminal to execute functions remotely.
+   -> The user connects to the server by using the Telnet protocol, which means entering Telnet into a command prompt by following this syntax: telnet hostname port.         The user then executes commands on the server by using specific Telnet commands into the Telnet prompt. To end a session and log off, the user ends a Telnet            command with Telnet.
+
+
+
+ 2) difference between telnet and rlogin? 
+ 
+    --> The most major difference between rlogin and telnet is in the way that rlogin allows the credentials of the client to be stored in a local rhosts file so that 		the just needs to access the remote server and he is connected automatically. The client program passes the credentials automatically. This can be both for 		password and username or password only. The problem with this is that leaving a terminal unattended leaves not only that terminal vulnerable but also all the 		other remote computers that has entries in the local rhosts file. It is not implemented in telnet, thus there is no risk of exposing the server to unnecessary 		risk.
+
+  	 --> Telnet allows the user to pass environment variables as parameters while Rlogin does not
+  	 --> Rlogin allows the user to automatically connect while Telnet does not
+   	 --> Both rlogin and telnet are not secure enough for public use
+
+4) Encrypting File System (EFS)?
+
+   -> An Encrypting File System (EFS) is a functionality of the New Technology File System (NTFS) found on various versions of Microsoft Windows. EFS facilitates the         transparent encryption and decryption of files by making use of complex, standard cryptographic algorithms.
+   -> The cryptographic algorithms are used in EFS to provide useful security countermeasures.
+   ->   whereby only the intended recipient can decipher the cryptography. EFS uses symmetric and asymmetric keys during the encryption process, but it does not 		protect Data transmissions. Rather, it protects data files within systems. Even if someone has access to a certain computer, whether authorized or not, he 		still cannot unlock the EFS cryptography without the secret key.	
