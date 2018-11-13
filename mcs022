@@ -24,3 +24,25 @@
    -> An Encrypting File System (EFS) is a functionality of the New Technology File System (NTFS) found on various versions of Microsoft Windows. EFS facilitates the         transparent encryption and decryption of files by making use of complex, standard cryptographic algorithms.
    -> The cryptographic algorithms are used in EFS to provide useful security countermeasures.
    ->   whereby only the intended recipient can decipher the cryptography. EFS uses symmetric and asymmetric keys during the encryption process, but it does not 		protect Data transmissions. Rather, it protects data files within systems. Even if someone has access to a certain computer, whether authorized or not, he 		still cannot unlock the EFS cryptography without the secret key.	
+
+5) Introduction to 5 Common Network Devices
+    1) Hub 2) Switch 3) Router 4) Firewall 5) Wireless Access Point
+     1) HUB:- I have to be honest here, the hub is old school technology and not really used in modern networks. 
+              I’ve included it here because you may run into it occasionally, but also because it is helpful in 
+               the next section (the switch) if you know what a hub is. A hub is a device that simply spits out data 
+               it receives on one interface to all its other interfaces.  So, if a packet of data arrives on 
+               interface 1 of an 8 port hub, the hub will blindly copy that data out the interfaces 2 through 8. This was useful
+               in the early days.  It was a cheep and quick way to link up multiple computers.  The problem with hubs though 
+               is that only one computer can talk at a time.  If two computers talked at the same time, their traffic 
+               would get combined as it was echoed out the other interfaces.  This is called a collision, and it would corrupt 
+               the data being transmitted by both computers. So, each computer would have to try again, after a random time period.  
+               This becomes a real problem when the network gets busy or when more then a hand full of computers are on a network. 
+               A switch solves the collision issue.
+               
+     2) Switch : -
+        
+     
+     
+
+
+
