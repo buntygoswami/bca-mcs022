@@ -25,6 +25,69 @@
    -> The cryptographic algorithms are used in EFS to provide useful security countermeasures.
    ->   whereby only the intended recipient can decipher the cryptography. EFS uses symmetric and asymmetric keys during the encryption process, but it does not 		protect Data transmissions. Rather, it protects data files within systems. Even if someone has access to a certain computer, whether authorized or not, he 		still cannot unlock the EFS cryptography without the secret key.	
 
+5) what is TFTP?
+   -> trivial is a file transfer protocol used to read or write file/mail from or on remote server.
+   -> trivial file transfer protocol is use UDP (user datagram protocol) to transport data from one end to another end.
+   -> tftp and ftp is very simple in design and has limited features as compared to File Transfer Protocol (FTP).
+   -> TFTP provides no authentication and security while transferring files. 
+   -> Its lack of security also makes it dangerous for use over the Internet.
+   -> TFTP is very useful for boot computers and devices that do not have hard disk drives or storage devices 
+      because it can easily be implemented using a small amount of memory.
+   -> Data transfer through TFTP is usually initiated through port 69.
+
+6) difference between ftp vs tftp? 
+   1) It is simpler than FTP, does file transfer between client and server process
+       but does not provide user authentication and other useful features supported by FTP.
+   2) As TFTP is unreliable protocol due to UDP,but ftp uses TCP as transport layer protocol.
+   3) TFTP sends one block and waits on acknowledgement before sending another block.
+   3) ftp uses TCP port numbers 20 and 21. but tftp use udp port number 69.
+   4) FTP uses robust control commands.	TFTP uses simple control commands.
+   5) ftp sends data over a separate TCP connection from control commands.	 
+      tftp uses no connections because UDP is connectionless protocol. 
+   6) ftp requires more memory and programming effort.	tftp requires less memory and programming effort.	
+   7) ftp  specified in RFC959 document.	but tftp specified in RFC783 document.
+   
+7)  OSI Layer.
+    -> it process data over seven  layer. 
+    -> Each Layer in the OSI model does the job for the previous layer also adds prefixes information termed as "header".
+    -> The data link layer adds suffixes called cyclic redundancy check as "trailer" which is used for error detection.
+    
+     [ Physical Layer -> data link layer -> Network layer ->  transport layer -> session layer -> presentation layer -> application layer]
+     let us discuss each one by  one more Detail -> http://www.rfwireless-world.com/images/OSI_TCPIP.JPG
+     
+     1)  Application Layer : 
+        -> All the applications for user reside at this layer. It includes FTP, Telnet, e-mail etc.
+     2) Presentation Layer :
+        -> It formats and encrypts data to be sent across a network. 
+        -> Its basic task is to make application layer and network layer talk to each other by processing the data.
+     3) Session Layer :
+        -> It Provides control mechanism to connect two applications running on different machines.
+        -> It covers basic function to establish, to maintain and to release connections.
+     4) Transport Layer :
+       -> It assures reliable data communication between two hosts.
+       ->  It is responsible for error recovery and flow control between two hosts.
+       -> It also does multiplexing and de multiplexing functionalities for transmitting and receiving host respectively.
+     
+     5) Network Layer :
+       -> The main function is switching and routing of the packet. 
+       -> It adds logical addressing to do this. It also takes care of error handling, congestion control and packet sequencing.
+     
+     6) Data Link Layer :
+        -> It takes care of errors in the physical layer.
+        -> It provides flow control and also does frame synchronization. 
+        -> ARQ is implemented to take care of retransmission in case of erroneous packets. 
+        -> In latest today's technologies it provides Medium Access Control functionality, hence known as MAC. 
+        
+     7) Physical Layer :
+        -> It mainly takes care of bit stream transmission over physical medium (cable, air etc.). 
+        -> It provides the hardware means of sending and receiving data through cable or wireless medium.
+        
+   
+        
+        
+        
+
+
 5) Introduction to 5 Common Network Devices
     1) Hub 2) Switch 3) Router 4) Firewall 5) Wireless Access Point
      1) HUB:- I have to be honest here, the hub is old school technology and not really used in modern networks. 
