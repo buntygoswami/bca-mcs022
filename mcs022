@@ -82,8 +82,42 @@
         -> It mainly takes care of bit stream transmission over physical medium (cable, air etc.). 
         -> It provides the hardware means of sending and receiving data through cable or wireless medium.
         
-   
-        
+  
+  
+8)  Windows 2000 File Replication Service (FRS) ? 
+   -> The File Replication service (FRS) is a multi-threaded, multi-master replication engine 
+      that replaces the LMREPL (LAN Manager Replication) service in Microsoft Windows NT versions 3.x and 4.0.
+   -> Windows 2000 domain controllers and servers use FRS to replicate system policies 
+      and login scripts for Windows 2000 and down-level clients.   
+   -> FRS can also replicate content between Windows 2000 servers hosting the
+      same fault-tolerant Distributed File System (DFS) roots or child node replicas.    
+      
+      
+9)  What is NTFS file system ? 
+   -> NTFS is an acronym for NT File System or New Technology File System and refers to a file system 
+      used by the operating system to identify how files are stored, named 
+      and organized on a hard-disk drive (HDD), solid-state drive (SSD), USB memory stick, 
+      microSD card and other similar storage devices.
+   -> NTFS is a reliable file system.
+   -> It offers security.
+   -> It can use file compression to increase the free storage space available on a disk. 
+   -> It allows you to use mounted volumes, which means that you can access disk volumes as regular folders in your files system.
+   -> NTFS can regain free space from sparse files, by monitoring the consecutive large areas of zeros from files on the disk.
+   -> NTFS has journaling, which means that it keeps a log of the files added, modified or deleted on a drive.
+   -> The NTFS file system should be faster than FAT32.
+  
+10) what is fat16 ? 
+    -> 
+
+
+
+
+
+
+
+
+
+
         
         
 
